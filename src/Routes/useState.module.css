@@ -1,0 +1,13 @@
+.banner{
+    background-color: #FFFAFA;
+    min-height: 100vh;
+    max-height: fit-content;
+    width: 70%;
+    margin-inline: auto;
+    box-shadow: 12px 10px 26px 0px rgba(0,0,0,0.48);
+}
+
+.heading{
+    margin-inline: auto;
+}
+
