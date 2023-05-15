@@ -12,8 +12,6 @@ function App() {
       <Route path='/useState' element={<UseState />}/>
       <Route path='/' element={<Home />}/>
 
-
-
       
     </Routes>
     </BrowserRouter>
