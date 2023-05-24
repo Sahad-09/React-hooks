@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 
 html{
     background-image: linear-gradient(to right top, #005b95, #0068a0, #0076aa, #0083b4, #0091bd, #0091bd, #0091bd, #0091bd, #0083b4, #0076aa, #0068a0, #005b95);
@@ -90,6 +96,17 @@ html{
   .code-input:hover {
     border-color: #999;
   }
+
+  .banner{
+    background-color: #FFFAFA;
+    min-height: 100vh;
+    max-height: fit-content;
+    width: 70%;
+    margin-inline: auto;
+    box-shadow: 12px 10px 26px 0px rgba(0,0,0,0.48);
+    padding: 1rem;
+    margin-block: 0.5rem;
+}  
   
   
 
