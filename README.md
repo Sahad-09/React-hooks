@@ -1,5 +1,5 @@
 # React-hooks
-Goal is to make people understand about react hooks with real life use cases. Raw and simplest explanations will be provided. Also where you can edit and learn about the code without ever leaving the web page with the help of inbuilt react code editor provided.
+Goal is to make people understand about react hooks with real life use cases. Raw and simplest explanations will be provided. Also link will be provided of code sandboxes of the examples explained above.
 
 
 1. **Install Modules.**
