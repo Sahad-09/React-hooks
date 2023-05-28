@@ -1,5 +1,5 @@
-import UseState from './Routes/jsx modules/UseState';
-import UseEffect from './Routes/jsx modules/UseEffect';
+import UseState from './Routes/UseState';
+import UseEffect from './Routes/UseEffect';
 import Home from './Home';
 import { BrowserRouter, Route, Routes   } from 'react-router-dom'
 
