@@ -27,7 +27,7 @@ const UseState = () => {
 
   const inputStateField = `import React, { useState } from 'react';
 
-  function Example() {
+  function App() {
     const [inputValue, setInputValue] = useState('');
   
     const handleChange = (event) => {
@@ -44,7 +44,7 @@ const UseState = () => {
 
   const counter = `import React, { useState } from 'react';
 
-  function Example() {
+  function App() {
     const [count, setCount] = useState(0);
   
     const increment = () => {

@@ -67,18 +67,18 @@ html{
 }  
 
 a{
-  color: #3D2B1F; 
+  color: red; 
 }
 a:visited {
   opacity: 50%;
 }
 a:hover {
-  color: red;
+  color: yellow; 
   background-color: transparent;
   text-decoration: underline;
 }
 a:active {
-  color: yellow;
+  color: #3D2B1F;
   background-color: transparent;
   text-decoration: underline;
 }
