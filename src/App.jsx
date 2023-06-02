@@ -8,6 +8,7 @@ function App() {
   return (
     <>
 
+    {/* BrowserRouer allows the user to navigate to multiple pages in a single-page application */}
     <BrowserRouter>
     <Routes>
       <Route path='/' element={<Home />}/>

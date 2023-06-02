@@ -3,6 +3,7 @@ import Button from '@material-ui/core/Button';
 import './App.css'
 import {useNavigate} from 'react-router-dom'
 
+// Nav bar
 const Home = () => {
     const navigate = useNavigate();
 

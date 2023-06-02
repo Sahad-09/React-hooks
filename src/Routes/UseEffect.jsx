@@ -13,7 +13,7 @@ const UseEffect = () => {
       // Do something with the data
     };
     fetchData();
-    //CleanUp function
+    // CleanUp function
     return() =>{
       active = false
     }
