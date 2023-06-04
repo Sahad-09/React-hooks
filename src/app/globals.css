@@ -28,6 +28,11 @@
     animation-duration: 30s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
+    -webkit-box-shadow:0px 0px 80px 30px rgba(24,180,247,0.1);
+    -moz-box-shadow: 0px 0px 80px 30px rgba(24,180,247,0.1);
+    box-shadow: 0px 0px 80px 30px rgba(24,180,247,0.1);
+
+
 
   }
 
@@ -38,12 +43,18 @@
     height:70px;
     border-radius:50%;
     border:10px solid #18B4F7;
+    -webkit-box-shadow:0px 0px 80px 30px rgba(24,180,247,0.1);
+    -moz-box-shadow: 0px 0px 80px 30px rgba(24,180,247,0.1);
+    box-shadow: 0px 0px 80px 30px rgba(24,180,247,0.1);
   }
 
   .nucleo , .react-logo , .react-logo:before , .react-logo:after {
     display: flex;
     align-items: center;
     justify-content: center;
+    -webkit-box-shadow:0px 0px 80px 30px rgba(24,180,247,0.1);
+    -moz-box-shadow: 0px 0px 80px 30px rgba(24,180,247,0.1);
+    box-shadow: 0px 0px 80px 30px rgba(24,180,247,0.1);
   }
 
   .nucleo{
@@ -51,6 +62,9 @@
     height:40px;
     border-radius:100%;
     background:#18B4F7;
+    -webkit-box-shadow:0px 0px 80px 30px rgba(24,180,247,0.1);
+    -moz-box-shadow: 0px 0px 80px 30px rgba(24,180,247,0.1);
+    box-shadow: 0px 0px 80px 30px rgba(24,180,247,0.1);
   }
 
   .react-logo:before , .react-logo:after{

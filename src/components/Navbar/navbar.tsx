@@ -1,10 +1,11 @@
 import React from 'react'
+import Link from 'next/link'
 
 const navbar = () => {
   return (
     <div>
       <div className="navbar bg-base-100">
-        <a className="btn btn-ghost normal-case text-xl">React Hooks</a>    
+        <Link className="btn btn-ghost normal-case text-xl" href={'/'}>React Hooks</Link> 
       </div>
     </div>
   )
