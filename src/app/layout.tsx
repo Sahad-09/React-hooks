@@ -20,7 +20,7 @@ export default function RootLayout({
 }) {
   return (
     <html data-theme="night" lang="en">
-      <body className={`${inter.className} h-screen flex flex-col`}>
+      <body className={`${roboto.className} h-screen flex flex-col`}>
         <Navbar />
         {children}
         <Footer />
