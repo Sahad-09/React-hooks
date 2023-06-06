@@ -1,4 +1,3 @@
-// 'use client'
 import Image from 'next/image'
 import Link from 'next/link';
 export default function Home() {
@@ -11,7 +10,7 @@ export default function Home() {
 		    </span>
       </div>
       <div className='self-center mr-48'>
-        <h1 className=' bg-gradient-to-b from-[#18B4F7] to-[#C8CAD0] text-transparent bg-clip-text text-left text-[4rem] leading-1 font-semibold'>React hooks with <br /> real use cases</h1>
+        <h1 className=' bg-gradient-to-b from-[#18B4F7] to-[#C8CAD0] text-transparent bg-clip-text text-left text-[4rem] leading-1 font-semibold '>React hooks with <br /> real use cases</h1>
       </div>
     </div>
       <div>

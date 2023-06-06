@@ -1,9 +1,12 @@
-import "./globals.css";
-import { Inter } from "next/font/google";
-import Navbar from "../components/Navbar/navbar";
-import Footer from "../components/Footer/footer";
+import './globals.css'
+import {Roboto } from 'next/font/google'
+import Navbar from '../components/Navbar/navbar'
+import Footer from '../components/Footer/footer'
 
-const inter = Inter({ subsets: ["latin"] });
+const roboto = Roboto({
+  weight: '400',
+  subsets: ['latin'],
+   })
 
 export const metadata = {
   title: "React Hooks",
