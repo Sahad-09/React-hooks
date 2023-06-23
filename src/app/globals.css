@@ -78,15 +78,6 @@
   .react-logo:before{
     transform:rotate(57deg);
   }
-  
-.title{
-  font-size:60px;
-  background:#0F1729;
-  color:#18B4F7;
-  width:250px;
-  margin:2px auto;
-  text-align:center;
-}
 
   @keyframes rotate{
 
@@ -95,3 +86,116 @@
     }
   }
 
+
+
+
+
+
+    @media screen and (max-width: 480px) {
+    body{
+    font-family: 'Roboto', sans-serif;
+  }
+    .container{
+      width: 125px;
+  height: 125px;
+      margin:20px auto 0 auto;
+      background:#0F1729;
+  
+      display:flex;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .react-logo{
+      display: inline-block;
+      border-radius:50%;
+      border:5px solid #00d8ff;
+  
+      animation-name:rotate;
+      animation-duration: 30s;
+      animation-iteration-count: infinite;
+      animation-timing-function: linear;
+          -webkit-box-shadow:0px 0px 80px 30px rgba(24,180,247,0.1);
+    -moz-box-shadow: 0px 0px 80px 30px rgba(24,180,247,0.1);
+    box-shadow: 0px 0px 80px 30px rgba(24,180,247,0.1);
+  
+    }
+  
+    .react-logo , .react-logo:before , .react-logo:after{
+      position:absolute;
+      display: inline-block;
+      width: 100px;
+      height: 35px;
+      border-radius:50%;
+      border:5px solid #00d8ff;
+          -webkit-box-shadow:0px 0px 80px 30px rgba(24,180,247,0.1);
+    -moz-box-shadow: 0px 0px 80px 30px rgba(24,180,247,0.1);
+    box-shadow: 0px 0px 80px 30px rgba(24,180,247,0.1);
+    }
+  
+    .nucleo , .react-logo , .react-logo:before , .react-logo:after {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+          -webkit-box-shadow:0px 0px 80px 30px rgba(24,180,247,0.1);
+    -moz-box-shadow: 0px 0px 80px 30px rgba(24,180,247,0.1);
+    box-shadow: 0px 0px 80px 30px rgba(24,180,247,0.1);
+    }
+  
+    .nucleo{
+      width: 17px;
+    height: 17px;
+      border-radius:100%;
+      background:#00d8ff;
+          -webkit-box-shadow:0px 0px 80px 30px rgba(24,180,247,0.1);
+    -moz-box-shadow: 0px 0px 80px 30px rgba(24,180,247,0.1);
+    box-shadow: 0px 0px 80px 30px rgba(24,180,247,0.1);
+    }
+  
+    .react-logo:before , .react-logo:after{
+      content:"";
+    }
+  
+    .react-logo:after{
+      transform:rotate(-57deg);
+    }
+  
+    .react-logo:before{
+      transform:rotate(57deg);
+    }
+    
+  
+    @keyframes rotate{
+  
+      100%{
+        transform:rotate(360deg);
+      }
+    }
+  }
+
+  .Frame-18 {
+    width: 280px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* gap: 20px; */
+    margin-inline: auto;
+    margin-block: 40px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: solid 3px #e1f1f5;
+    background-color: #171a21;
+  }
+
+
+  .grid-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    /* grid-template-rows: repeat(3, 500px); */
+    width: 80%;
+    border: 2px sloid black;
+    justify-content: center;
+    align-items: center;
+  }

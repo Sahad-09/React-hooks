@@ -8,10 +8,10 @@ const useeffect = () => {
             <h1 className=' text-4xl border-b-2 border-[#0F1729] text-center bg-gradient-to-b from-[#18B4F7] to-[#C8CAD0] text-transparent bg-clip-text'>useEffect</h1>
 
 
-            <p>The useEffect hook in React is used for handling side effects in functional components. It allows you to perform certain actions when the component mounts, updates, or unmounts. Here are some common use cases for useEffect:</p>
+            <p>The useEffect hook in React allows you to perform side effects in functional components. It runs after rendering and enables actions like data fetching, subscriptions, or DOM manipulation. useEffect helps you integrate external interactions into your components and manage their lifecycle.</p>
             <div className=' my-8'>
             <h3 className=' text-[21px]'>1.Fetching data</h3>
-            <p>You can use useEffect to fetch data from an API when the component mounts. This is often done using the fetch or axios libraries.</p>
+            <p>You can use useEffect to fetch data from an API or server when the component mounts. This ensures that the data is available for rendering. This is often done using the fetch or axios libraries.</p>
             <iframe
       src="https://codesandbox.io/embed/fetch-api-xcopcr?fontsize=14&hidenavigation=1&theme=dark"
       title="Fetch Api"
@@ -23,9 +23,6 @@ const useeffect = () => {
         border: '0',
         borderRadius: '4px',
         overflow: 'hidden',
-
-        //hello
-
       }}
     />
           </div>
@@ -34,7 +31,7 @@ const useeffect = () => {
 
           <div className="my-8">
             <h3 className=' text-[21px]'>2.Subscribing to events</h3>
-            <p>useEffect can be used to subscribe to browser events, such as scroll events or keyboard events. This allows you to add event listeners and perform actions when the events occur.</p>
+            <p>If your component needs to subscribe to external data sources or event emitters, useEffect can handle the subscription setup and cleanup. Used in subscribing to browser events, such as scroll events or keyboard events etc.</p>
             <iframe
       src="https://codesandbox.io/embed/subscribing-to-events-964562?fontsize=14&hidenavigation=1&theme=dark"
       title="Subscribing to events"
@@ -56,7 +53,7 @@ const useeffect = () => {
 
           <div className="my-8">
             <h3 className=' text-[21px]'>3.Updating document title</h3>
-            <p>useEffect can be used to dynamically update the document title based on the components state or props. This is achieved by modifying the document.title property</p>
+            <p>useEffect can update the document title dynamically based on changes in your component&apos;s state or props, providing a personalized title for each rendered view, can be achieved by modifying the document.title property.</p>
             <iframe
       src="https://codesandbox.io/embed/updating-document-title-r6s0zj?fontsize=14&hidenavigation=1&theme=dark"
       title="Updating document title"
