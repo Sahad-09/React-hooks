@@ -2,6 +2,7 @@ import './globals.css'
 import {Roboto } from 'next/font/google'
 import Navbar from '../components/Navbar/navbar'
 import Footer from '../components/Footer/footer'
+import Image from 'next/image'
 
 const roboto = Roboto({
   weight: '400',
@@ -20,10 +21,12 @@ export default function RootLayout({
 }) {
   return (
     <html data-theme="night" lang="en">
-      <body className={`${roboto.className} h-screen flex flex-col`}>
+      <body className={`${roboto.className} h-screen flex flex-col overflow-x-hidden`}>
+      <Image className='z-[-2] absolute opacity-[0.04] top-0  -left-64 '  src="/space2.png" width={700} height={700} alt="Picture of the author" />
         <Navbar />
         {children}
         <Footer />
+            <Image className='z-[10] absolute opacity-[0.033] -top-0 -right-0'  src="/space3.png" width={800} height={300} alt="Picture of the author" />
       </body>
     </html>
   );

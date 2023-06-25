@@ -1,16 +1,19 @@
 import Image from 'next/image'
 import Link from 'next/link';
+
 export default function Home() {
   return (
     <>
-      <div className=' px-[30px]'>
-        <h1 className='  bg-gradient-to-b from-[#18B4F7] to-[#C8CAD0] text-transparent bg-clip-text text-4xl font-semibold text-left'>React Hooks With Real Use Cases</h1>
-        <p className=' pt-2 text-left'>React Hooks enables developers to use state and other React features without creating a class component. They offer a method for integrating stateful logic into functional components, facilitating better code reuse and making component state management less complicated.</p>
+      <div className=' z-20'>
+        <div className=' px-[30px] md:px-28'>
+          <h1 className=' md:mt-2  bg-gradient-to-b from-[#18B4F7] to-[#C8CAD0] text-transparent bg-clip-text text-4xl md:text-6xl font-semibold text-left'>React Hooks With Real Use Cases</h1>
+          <p className=' md:mt-1 pt-2 text-left md:text-xl'>React Hooks enables developers to use state and other React features without creating a class component. They offer a method for integrating stateful logic into functional components, facilitating better code reuse and making component state management less complicated.</p>
+        </div>
       </div>
 
 
       
-        <div className='mx-auto grid-container'>
+        <div className='z-10 mx-auto grid-container'>
           {/* useState */}
         <div className="Frame-18">
           <h1 className=' text-[#18B4F7] font-bold text-3xl'>useState</h1>
@@ -67,6 +70,7 @@ export default function Home() {
         </div>
 
 
+       
 
         {/* useCallback */}
         <div className="Frame-18">
@@ -113,10 +117,8 @@ export default function Home() {
           </div>
           <Link className=" hover:bg-[#4DC8AB] hover:border-[#4DC8AB] bg-[#61fbd6] border-[#61fbd6] mr-auto btn btn-primary" href={'/useref'}><button>Learn More</button></Link>
         </div>
-
-
-
         </div>
+        
     </>
   )
 }

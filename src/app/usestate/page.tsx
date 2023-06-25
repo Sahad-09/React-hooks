@@ -4,7 +4,7 @@ const usestate = () => {
 
   return (
     <div>
-      <div className=" shadow-md bg-[#060c18] mx-auto w-[56rem] min-h-screen rounded-md ">
+      <div className=" shadow-md bg-[#060c18] mx-auto w-[56rem] max-w-full min-h-screen rounded-md ">
         <div className='p-3'>
             <h1 className=' text-4xl border-b-2 border-[#0F1729] text-center bg-gradient-to-b from-[#18B4F7] to-[#C8CAD0] text-transparent bg-clip-text'>useState</h1>
 
@@ -27,7 +27,6 @@ const usestate = () => {
                 allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
                 sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
                 ></iframe>
-                {/* hello  */}
           </div>
 
 
