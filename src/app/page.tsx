@@ -2,8 +2,10 @@ import Image from 'next/image'
 import Link from 'next/link';
 
 export default function Home() {
+
   return (
     <>
+
       <div className=' z-20'>
         <div className=' px-[30px] md:px-28'>
           <h1 className=' md:mt-2  bg-gradient-to-b from-[#18B4F7] to-[#C8CAD0] text-transparent bg-clip-text text-4xl md:text-6xl font-semibold text-left'>React Hooks With Real Use Cases</h1>
@@ -21,7 +23,7 @@ export default function Home() {
           <div className=' h-60 mb-2'>
             <p>useState is a React Hook that allows functional components to have state. It returns an array with two elements: the current state value and a function to update the state.</p>
           </div>
-          <Link className=" mr-auto btn btn-primary" href={'/usestate'}><button>Learn More</button></Link>
+          <Link className=" mr-auto btn btn-primary" href={'/usestate'}><button >Learn More</button></Link>
         </div>
 
 

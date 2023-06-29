@@ -1,7 +1,8 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import Link from 'next/link'
 
-const navbar = () => {
+const Navbar = () => {
+
   return (
     <div>
       <div className=" navbar bg-base-100">
@@ -11,4 +12,4 @@ const navbar = () => {
   )
 }
 
-export default navbar
+export default Navbar

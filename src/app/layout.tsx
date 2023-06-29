@@ -1,7 +1,7 @@
 import './globals.css'
 import {Roboto } from 'next/font/google'
-import Navbar from '../components/Navbar/navbar'
-import Footer from '../components/Footer/footer'
+import Navbar from '../components/navbar/Navbar'
+import Footer from '../components/footer/Footer'
 import Image from 'next/image'
 
 const roboto = Roboto({

@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 
-const footer = () => {
+const Footer = () => {
   return (
     <div className="flex mt-auto bottom-2 px-6">
       <div className=" w-[80%] mx-auto "></div>
@@ -47,4 +47,4 @@ const footer = () => {
   );
 };
 
-export default footer;
+export default Footer;
