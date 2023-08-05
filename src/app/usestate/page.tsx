@@ -27,6 +27,7 @@ const usestate = () => {
                 allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
                 sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
                 ></iframe>
+            <p>First, you need to set isOpen and setIsOpen as two values inside an array for useState. isOpen is your state variable and setIsOpen will be your function which is gonna help in manipulating your state. Initially, we set isOpen to false. The toggle function is defined. When this function is called, it toggles the value of isOpen using the setIsOpen function.  If isOpen is currently false, calling setIsOpen(true) will change it to true, and vice versa.</p>
           </div>
 
 
