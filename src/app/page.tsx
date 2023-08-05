@@ -4,6 +4,7 @@ import Link from 'next/link';
 export default function Home() {
 
   return (
+
     <>
 
       <div className=' z-20'>
@@ -12,6 +13,8 @@ export default function Home() {
           <p className=' md:mt-1 pt-2 text-left md:text-xl'>React Hooks enables developers to use state and other React features without creating a class component. They offer a method for integrating stateful logic into functional components, facilitating better code reuse and making component state management less complicated.</p>
         </div>
       </div>
+
+      
 
 
       
@@ -120,6 +123,19 @@ export default function Home() {
           <Link className=" hover:bg-[#4DC8AB] hover:border-[#4DC8AB] bg-[#61fbd6] border-[#61fbd6] mr-auto btn btn-primary" href={'/useref'}><button>Learn More</button></Link>
         </div>
         </div>
+
+
+        {/* <footer className=' bg-[#373E53]'>
+          <div>
+          <p className=' text-center px-28'>Hye Sahad here, Whether I am working on a brand new project or finding ways to improve existing ones, my focus is always on delivering high-quality results. I work tirelessly to stay up-to-date on the latest trends and technologies in web, allowing me to create cutting-edge solutions that are both functional and visually stunning.</p>
+          </div>
+          <div className=' mt-6 mb-4 align-middle justify-center flex gap-10'>
+            <Image src="/Social media icons/githubLogo.png" alt="Error"  width={40} height={40} />
+            <Image src="/Social media icons/instagramLogo.png" alt="Error"  width={40} height={40} />
+            <Image src="/Social media icons/linkedinLogo.png" alt="Error"  width={40} height={40} />
+            <Image src="/Social media icons/youtubeLogo.png" alt="Error"  width={40} height={40} />
+          </div>
+        </footer> */}
         
     </>
   )

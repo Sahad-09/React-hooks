@@ -3,6 +3,7 @@ import {Roboto } from 'next/font/google'
 import Navbar from '../components/navbar/Navbar'
 import Footer from '../components/footer/Footer'
 import Image from 'next/image'
+import NextTopLoader from 'nextjs-toploader';
 
 const roboto = Roboto({
   weight: '400',
@@ -22,6 +23,7 @@ export default function RootLayout({
   return (
     <html data-theme="night" lang="en">
       <body className={`${roboto.className} h-screen flex flex-col overflow-x-hidden`}>
+      <NextTopLoader />
       <Image className='z-[-2] absolute opacity-[0.04] top-0  -left-64 '  src="/space2.png" width={700} height={700} alt="Picture of the author" />
         <Navbar />
         {children}
