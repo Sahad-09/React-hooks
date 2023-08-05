@@ -1,6 +1,6 @@
 import './globals.css'
 import {Roboto } from 'next/font/google'
-import Navbar from '../components/navbar/Navbar'
+import Navbar from '@/components/navbar/Navbar'
 import Image from 'next/image'
 import NextTopLoader from 'nextjs-toploader';
 
