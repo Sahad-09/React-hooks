@@ -3,7 +3,7 @@ import React from 'react'
 const useeffect = () => {
   return (
     <div>
-            <div className=" shadow-md bg-[#060c18] mx-auto w-[56rem] min-h-screen rounded-md ">
+            <div className=" shadow-md bg-[#0F1729] mx-auto w-[56rem] min-h-screen rounded-md ">
         <div className='p-3'>
             <h1 className=' text-4xl border-b-2 border-[#0F1729] text-center bg-gradient-to-b from-[#18B4F7] to-[#C8CAD0] text-transparent bg-clip-text'>useEffect</h1>
 
